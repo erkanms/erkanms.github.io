@@ -1,0 +1,102 @@
+.anton-regular {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    background-color: #3C4142;
+}
+
+section {
+    padding-left: 10vw;
+    border: 2px solid black;
+    height: 80vh;
+}
+
+.github {
+    position: grid;
+    border: 2px solid white;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 10vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 15px;
+    max-width: 15%;
+    height: 5vh;
+    min-width: 5%;
+    vertical-align: middle;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    white-space: nowrap;
+    padding: 10px 16px;
+    margin: 0px;
+    border-bottom: black;
+    background: #555;
+    color: #f1f1f1;
+  }
+
+ .menu {
+    margin-top: auto;
+    margin-bottom: auto;
+    position: grid;
+    border: 2px solid white;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 15%;
+    height: 5vh;
+    min-width: 5%;
+    padding-top: 15px;
+    vertical-align: middle;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    background-color: transparent;
+ }
+
+.text {
+    color: #F0F8FF;
+}
+
+.title {
+    color: #00BFFF;
+    white-space: nowrap;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.logo {
+    width: 7rem;
+    margin: 1rem;
+    font-size: 25px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    height:100px;
+    width:200px;
+    text-align:left;
+}
+
+html {
+    min-width: 500px;
+    position: relative;
+    }
